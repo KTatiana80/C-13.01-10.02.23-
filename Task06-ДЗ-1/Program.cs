@@ -11,9 +11,9 @@
 Console.WriteLine("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int LevenNumber = number % 2;
+int levenNumber = number % 2;
 
-if (LevenNumber == 0)
+if (levenNumber == 0)
 {
     Console.WriteLine($"Число {number} четное");
 }
